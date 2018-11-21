@@ -1,0 +1,162 @@
+html {
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body { 
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	background-color: rgb(100, 101, 112);
+	margin: 0; 
+	padding: 0;
+}
+
+header {
+	background-image: url(../static/citybeach.jpeg);
+	/*background: no-repeat center right fixed url(https://images.pexels.com/photos/365633/pexels-photo-365633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+	background-size: cover;
+	background-attachment: fixed;
+	height: 680px;
+	position: relative;
+	color: white;
+}
+
+header {
+    /*top: 24%;
+    z-index: 4;
+    max-width: 100%;*/    
+}
+
+.title {
+	text-align: center;
+	background-color: rgba(255,255,255,0.35);
+	position: relative;
+	top: 200px;
+}
+
+.title h1 {
+
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    font-size: 4.8rem; 
+	/*font-weight: 400; 
+	font: bold 4.2rem Helvetica, Arial, sans-serif;
+	margin: 4em 5em 0.5em;*/
+	font-weight: 700;
+}
+
+.title h2 {  
+
+	padding: 5% 20% 5% 20%;
+	visibility: visible; 
+	display: block;  
+	text-transform: uppercase;
+	letter-spacing: 0.5em; 
+	font-size: 1.4rem; 
+	font-weight: normal; 
+
+
+}
+
+.color {
+	height: 110px;
+	position: absolute;
+	
+	z-index: 1;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.intro, .experiences, .abilities {
+	text-align: left; 
+	position: relative; 
+	padding: 3% 20% 5% 20%;
+}
+
+.navbar {
+	position: fixed;
+	top: 0px;
+	border: 0px;	
+	right: 5%;
+	z-index: 999;
+	/*display: block;*/
+	float: none;
+	text-align: center;
+	/*background-color: rgba(192,192,180,0.5);*/
+}
+
+.menu {
+	float: right;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+.menu li {
+	display: inline-block;
+	font-size: 1.4em;
+	padding: 10px;
+}
+.menu li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+li a:hover:not(.active) {
+    background-color: #7e7c82;
+}
+/*
+.active {
+    background-color: #4CAF50;
+}
+*/
+.experiences {
+	background-color: rgb(52, 53, 58);
+	margin: 0;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+.social-media { 
+	margin: 3em 0 0; 
+	text-align: center;
+	border-bottom: 1px solid #d0d0d0;
+	border-top: 1px solid #d0d0d0;
+	width: 100%;
+}
+.social-media a {
+	text-decoration: none;
+    display: inline-block;
+    padding: 20px 17px;
+    color: #4b4b4b;
+    font-size: 22px;
+    margin-left: 1em; 
+}
+.social-media a img {
+	height: 20px;
+}
+.facebook img {
+	height: 10px;
+}
+.instagram img {
+	filter: brightness(0) invert(1);
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
